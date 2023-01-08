@@ -47,6 +47,7 @@ header{
 }
 a{
      text-decoration: none;
+     color: aliceblue;
 }
 .failure{
      display: flex;
@@ -70,3 +71,148 @@ a{
      margin: 0px 400px 0px 150px;
 
 }
+.plan-title{
+     font-size: 50px;
+     text-align: center;
+     margin-bottom: 4%;
+     margin-top: 10%;
+}
+.plans{
+     display: flex;
+     font-size: larger;
+     margin-left: 18%;
+     margin-right: 18%;
+     justify-content:space-around;
+     padding-bottom: 5%;
+     
+}
+
+.missions{
+     text-align: center;
+}
+.watch{
+     margin-left: 20%;
+     margin-right: 20%;
+     background-size: 100%;
+     padding-bottom: 80px;
+     background-repeat: no-repeat;
+     background-image: url(../images/gradient2.png),url(../images/watch.png);
+}
+.watch-heading{
+     color: aliceblue;
+     font-size: 40px;
+     padding: 5% 0% 3% 5%;
+}
+.watch-button{
+     margin-left: 5%;
+     border-radius: 5px;
+     padding: 2% 3%;
+     font-size: large;
+     border: none;
+
+}
+.watch-button a{
+     color: orangered;
+     text-decoration: none;
+     font-weight: 800;
+}
+.contact_us{
+     display: flex;
+     padding-bottom: 200px;
+     
+}
+.contact_us img{
+     width: 60%;
+     margin-left: 35%;
+     border-radius: 8px;
+     height: 90%;
+}
+
+.contact_heading{
+     font-size: 40px;
+     text-align: center;
+     margin-top: 13%;
+     margin-bottom: 5%;
+}
+.contact_info{
+     background-image:linear-gradient(to right,rgb(253, 224, 170),white);;
+     padding: 20px 40px;
+     border: none;
+     border-radius: 8px;
+     font-weight: 800;
+     width: 100%;
+     color: rgb(0, 0, 0);
+}
+.contact_message{
+     background-image:linear-gradient(to right,rgb(253, 224, 170),white);
+     border: none;
+     border-radius: 8px;
+     font-weight: 800;
+     
+}
+#contact{
+     margin-right: 25%;
+}
+.contact_button{
+     margin-top: 2%;
+     border-radius: 5px;
+     padding: 1.5% 6%;
+     font-size: large;
+     border: none;
+     background-color: bisque;
+     border: rgb(252, 209, 129) solid 2px;
+
+}
+.contact_button a{
+     text-decoration: none;
+     color: rgb(102, 104, 104);
+     font-weight: 800;
+}
+footer{
+     box-shadow: 5px -10px 100px black;
+     display: flex;
+     background-color: black;
+     color: white;
+     padding-top: 06%;
+     padding-bottom: 06%;
+}
+.footer_title{
+     margin-left:15% ;
+     width: 100%;
+     padding-right: 15%;
+
+}
+.subscribe{
+     margin-right: 30%;
+}
+.subscribe input{
+     padding: 20px 40px;
+     border: none;
+     border-radius: 8px;
+     font-weight: 800;
+     width: 100%;
+     color: rgb(0, 0, 0);
+     font-size:15px;
+
+
+}
+.subscribe button{
+     margin-top: 2%;
+     border-radius: 5px;
+     padding: 4% 10%;
+     font-size: large;
+     border: none;
+     margin-top: 6%;
+}
+.subscribe button a{
+     text-decoration: none;
+     color: rgb(240, 3, 3);
+     font-weight: 800;
+}
+footer h1{
+     font-size: 55px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+
